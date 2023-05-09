@@ -7,7 +7,7 @@
     width: 20%;
     position: fixed;
     top: 10%;
-    background-color: #B86B77;
+    background-color: #a54e5bc0;
     display: none;
 }
 #aba h2{
@@ -253,7 +253,7 @@ footer a{
 
     .product img {
         height: 20%;
-        width: 20%;
+        width: 30%;
     }
 
     .model {
@@ -266,7 +266,8 @@ footer a{
 /* celular*/
 @media (max-width: 480px) {
     #aba{
-        width: 45%;
+        width: 70%;
+        
     }
 
     #gif{
@@ -287,8 +288,8 @@ footer a{
     }
 
     .product img {
-        height: 15%;
-        width: 15%;
+        height: 30%;
+        width: 50%;
     }
 
     .model {
