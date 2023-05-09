@@ -119,7 +119,6 @@ h2{
     text-align: justify;
     font-size: 1.1em;
     width: 70%;
-    height: ;
     margin: auto;
     font-family: 'Courier New', Courier, monospace;
     color: #af0821;
@@ -225,4 +224,97 @@ footer p{
 footer a{
     padding: 2em;
     color: #bb3244;
+}
+
+
+/*responsividade tablet*/
+
+@media (max-width: 768px) {
+
+    #aba{
+        width: 40%;
+    }
+    #gif{
+        height: auto;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    ul {
+        margin: 1em;
+    }
+
+    li {
+        padding: 5px;
+    }
+
+    .product img {
+        height: 20%;
+        width: 20%;
+    }
+
+    .model {
+        width: 90%;
+        margin: 4%;
+    }
+
+}
+
+/* celular*/
+@media (max-width: 480px) {
+    #aba{
+        width: 45%;
+    }
+
+    #gif{
+        height: auto;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    ul {
+        margin: 0.5em;
+    }
+
+    li {
+        padding: 2px;
+    }
+
+    .product img {
+        height: 15%;
+        width: 15%;
+    }
+
+    .model {
+        width: 90%;
+        margin: 4%;
+    }
+
+    #sobre {
+        font-size: 1em;
+        width: 70%;
+    }
+    #img-gif{
+        display: none;
+    }
+
+    #contato {
+        margin: 2%;
+    }
+
+    
+    footer p {
+        padding: 1em;
+    }
+
+    footer a {
+        padding: 1em;
+    }
+
 }
