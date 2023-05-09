@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closet</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/icon-shop.png">
+
+</head>
+<body>
+    <header>
+        <h1>Closet</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+        <div id="shop">
+            <img src="img/icon-shop.png" alt="Carrinho de Compras" onmouseover="color()" onmouseout="colortwo()" onclick="abrir()" id="shop-img">
+        </div>
+        <div id="aba">
+            <h2>Carrinho de Compras</h2>
+
+            <p id="item">Item</p>
+
+            <p id="texto">Descrição</p>
+
+            <p id="preco-peca">R$ 0,00</p>
+
+            <p id="qtd">Quantidade: 0</p>
+
+            <img src="img/icon-add.png" alt="mais" class="icon" id="icon_mais" onclick="quantmais()">
+
+            <img src="img/icon-menos.png" alt="menos" class="icon" id="icon_menos" onclick="quantmenos()">
+
+            <p id="total">Total: R$ </p>  
+
+            <img src="img/icon-close.png" alt="fechar" id="remover" onclick="remove()">
+
+            <p><input type="checkbox" checked>Utilizar o mesmo cartão de Credito</p>
+
+            <button id="finalizar" onclick="fim()">Comprar</button>  
+            
+        </div>
+    </header>
+    <main>
+        <section class="welcome">
+            <h2>Bem vindo ao Closet!</h2>
+            <img src="img/Estilo.gif" alt="welcome" id="gif">
+        </section>
+        <section class="products">
+            <h2>Nova Linha</h2>
+            <div class="product">
+
+                <div class="model">
+                    <h2  class="titleModel">Modelo</h2>
+                <img src="img/modelo1.jpg" alt="modelo 1">
+                <br>
+               
+                <p class="description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia quo facilis quam asperiores 
+                </p><br>
+                <button class="price" onclick="pay()">R$ 199,00</button>
+                </div>
+
+                <div class="model">
+                    <h2 class="titleModel">Modelo </h2>
+                <img src="img/modelo2.jpg" alt="modelo 2"><br>
+                <p class="description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia quo facilis quam asperiores 
+                </p><br>
+                <button class="price" onclick="pay()">R$ 199,00</button>
+                </div>
+
+                <div class="model">
+                    <h2 class="titleModel">Modelo</h2>
+                    <img src="img/modelo3.jpg" alt="modelo 3"><br>
+                    <p class="description">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia quo facilis quam asperiores 
+                    </p><br>
+                    <button class="price" onclick="pay()">R$ 199,00</button>
+                </div>
+
+                <div class="model">
+                    <h2 class="titleModel">Modelo</h2>
+                    <img src="img/modelo4.jpg" alt="modelo 4"><br>
+                    <p class="description">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia quo facilis quam asperiores
+                    </p><br>
+                    <button class="price" onclick="pay()">R$ 199,00</button>
+                </div>
+
+                <div class="model">
+                    <h2 class="titleModel">Modelo</h2>
+                    <img src="img/modelo5.jpg" alt="modelo 5"><br>
+                    <p class="description">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia quo facilis quam asperiores
+                    </p><br>
+                    <button class="price" onclick="pay()">R$ 199,00</button>
+                </div>
+
+                <div class="model">
+                    <h2 class="titleModel">Modelo</h2>
+                    <img src="img/modelo6.jpg" alt="modelo 6"><br>
+                    <p class="description">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia quo facilis quam asperiores
+                    </p><br>
+                    <button class="price" onclick="pay()">R$ 199,00</button>
+                </div>
+
+                <div class="model">
+                    <h2 class="titleModel">Modelo</h2>
+                    <img src="img/modelo7.jpg" alt="modelo 7"><br>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p><br>
+                    <button class="price" onclick="pay()">R$ 199,00</button>
+                </div>
+
+                <div class="model">
+                    <h2 class="titleModel">Modelo</h2>
+                    <img src="img/modelo8.jpg" alt="modelo 8"><br>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p><br>
+                    <button class="price" onclick="pay()">R$ 199,00</button>
+                </div>
+
+                <div class="model">
+                    <h2 class="titleModel">Modelo</h2>
+                    <img src="img/modelo9.jpg" alt="modelo 9"><br>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p><br>
+                    <button class="price" onclick="pay()">R$ 199,00</button>
+                </div>
+
+                <div class="model">
+                    <h2 class="titleModel">Modelo</h2>
+                    <img src="img/modelo10.jpg" alt="modelo 10"><br>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p><br>
+                    <button class="price" onclick="pay()">R$ 199,00</button>
+                </div>
+
+                <div class="model">
+                    <h2 class="titleModel">Modelo</h2>
+                    <img src="img/modelo11.jpg" alt="modelo 11"><br>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p><br>
+                    <button class="price" onclick="pay()">R$ 199,00</button>
+                </div>
+
+                <div class="model">
+                    <h2 class="titleModel">Modelo</h2>
+                    <img src="img/modelo12.jpg" alt="modelo 12"><br>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p><br>
+                    <button class="price" onclick="pay()">R$ 199,00</button>
+                </div>
+
+                <div class="model">
+                    <h2 class="titleModel">Modelo</h2>
+                    <img src="img/modelo13.jpg" alt="modelo 13"><br>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p><br>
+                    <button class="price" onclick="pay()">R$ 199,00</button>
+                </div>
+
+                <div class="model">
+                    <h2 class="titleModel">Modelo</h2>
+                    <img src="img/modelo14.jpg" alt="modelo 14"><br>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p><br>
+                    <button class="price" onclick="pay()">R$ 199,00</button>
+                </div>
+
+                <div class="model">
+                    <h2 class="titleModel">Modelo</h2>
+                    <img src="img/modelo15.jpg" alt="modelo 15"><br>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non delectus ex necessitatibus minima error 
+                    </p><br>
+                    <button class="price" onclick="pay()">R$ 199,00</button>
+                </div>
+
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Criado por Iasmin Fernandes - 2023</p>
+        <a href="https://github.com/IasminCQFernandes">GitHub</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
